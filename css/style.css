@@ -1,0 +1,92 @@
+body {
+	font-family: arial;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.title {
+	text-align: center;
+	font-size: 50px;
+	color: midnightblue;
+	text-transform: uppercase;
+}
+
+.menu {
+	width: 15%;
+	float: left;
+}
+
+.menu ul {
+	border: 1px solid lightgreen;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.menu ul li {
+}
+
+.menu ul li a {
+	display: block;
+	padding: 10px 15px;
+	text-decoration: none;
+	border-bottom: 1px solid lightgreen;
+	color: midnightblue;
+}
+
+.menu ul li a:hover {
+	background: midnightblue;
+	color: white;
+}
+
+.menu ul li:last-child a {
+	border-bottom: 0;
+}
+.slideshow{
+
+}
+.slideshow ul{
+    border: 1px solid lightgreen;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.slideshow ul li{
+
+}
+.slideshow ul li img{
+	max-width: 100%;
+}
+
+.main {
+	width: 80%;
+	float: left;
+}
+
+.social {
+	width: 5%;
+	float: left;
+}
+.social ul{
+    border: 1px solid lightgreen;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.social ul li{
+
+}
+.social ul li a{
+
+}
+.social ul li a img{
+	max-width: 100%;
+	display: block;
+}
+.main p{
+	font-size: 20px;
+	line-height: 1.5;
+}
