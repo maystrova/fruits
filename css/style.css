@@ -45,20 +45,24 @@ body {
 .menu ul li:last-child a {
 	border-bottom: 0;
 }
-.slideshow{
 
+.slideshow {
+	position: relative;
 }
-.slideshow ul{
-    border: 1px solid lightgreen;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-.slideshow ul li{
 
+.slideshow ul {
+	border: 1px solid lightgreen;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
-.slideshow ul li img{
+
+.slideshow ul li {
+}
+
+.slideshow ul li img {
 	max-width: 100%;
+	    
 }
 
 .main {
@@ -70,23 +74,41 @@ body {
 	width: 5%;
 	float: left;
 }
-.social ul{
-    border: 1px solid lightgreen;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-.social ul li{
 
+.social ul {
+	border: 1px solid lightgreen;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
-.social ul li a{
 
+.social ul li {
 }
-.social ul li a img{
+
+.social ul li a {
+}
+
+.social ul li a img {
 	max-width: 100%;
 	display: block;
 }
-.main p{
+
+.main p {
 	font-size: 20px;
 	line-height: 1.5;
+}
+
+.nav {
+	    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.nav i {
+	width: 10px;
+	height: 10px;
+	background: rgba(0, 0, 0, 0.5);
+	display: block;
+	margin-bottom: 10px;
+	border-radius: 100%;
 }
