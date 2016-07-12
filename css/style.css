@@ -58,13 +58,16 @@ body {
 }
 
 .slideshow ul li {
+	display: none;
 }
 
 .slideshow ul li img {
 	max-width: 100%;
 	    
 }
-
+.slideshow ul li.active{
+	display: block!important;
+}
 .main {
 	width: 80%;
 	float: left;
@@ -107,8 +110,12 @@ body {
 .nav i {
 	width: 10px;
 	height: 10px;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.3);
 	display: block;
 	margin-bottom: 10px;
 	border-radius: 100%;
+	cursor: pointer;
+}
+.nav i:hover,.nav i.active{
+	background: rgba(0, 0, 0, 0.7);
 }
